@@ -516,6 +516,12 @@ define(function() {
 			matches: ['*://www.freemusicarchive.org/*', '*://freemusicarchive.org/*', '*://www.freemusicarchive.com/*', '*://freemusicarchive.com/*'],
 			js: ['connectors/v2/freemusicarchive.js'],
 			version: 2
-		}
+		},
+		{
+			label: 'Radio 101 - Zagreb, Croatia',
+			matches: ['*://www.radio101.hr/sites/all/modules/radio101/ronair/live-stream-fm.html'],
+			js: ['connectors/radio101.js'],
+			version: 2
+		},
 	];
 });
